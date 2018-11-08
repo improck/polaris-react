@@ -44,6 +44,7 @@ The autocomplete component is an input field that provides selectable suggestion
 
 ### Enhancements
 
+- Added `onScrollToBottom` prop to `Scrollable`
 - Changed `Form` to default the `method` to `post` in order to prevent accidental leaking of form details
 - Added support for boolean type on Choice error prop
 - Changed the esnext folder to contain individual, minimally transpiled JavaScript component files, as well as raw style and image assets
