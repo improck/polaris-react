@@ -88,7 +88,7 @@ $item-wrapper-loading-height: rem(64px);
   @include breakpoint-after(resource-list(breakpoint-small)) {
     right: spacing();
     left: spacing();
-    align-self: flex-start;
+    align-self: center;
   }
 }
 
@@ -155,7 +155,7 @@ $item-wrapper-loading-height: rem(64px);
 
   @include breakpoint-after(resource-list(breakpoint-small)) {
     flex: 0 1 auto;
-    align-self: flex-start;
+    align-self: center;
   }
 }
 
